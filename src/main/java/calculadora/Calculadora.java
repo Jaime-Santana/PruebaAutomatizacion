@@ -18,6 +18,7 @@ public class Calculadora {
 	}
 	
 	public int sumar(int primero, int segundo) {
+		System.out.println("El resultado de la suma es: " + primero+segundo);
 		return primero+segundo;
 	}
 	
